@@ -1,0 +1,157 @@
+
+body{
+  background-color: #CBFEC9;
+  background-image: url("../Images/background01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+
+}
+
+
+.wrapper {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 860px;
+  width: 100%;
+  max-height: 700px;
+  height: 100%;
+  background: #ffff;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+
+}
+
+.form {
+
+  padding: 0 10px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  background-color: #ffff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  font-weight: 800;
+}
+
+.form h1{
+  padding: 5px;
+  color:#101557;
+}
+
+
+
+input[type="text"] {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  width: 90%;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #D9D9DC;
+  background-color: #F1F2F7;
+  color: #333333;
+  font-weight: 700;
+}
+
+input[type="text"]:hover,
+input[type="text"]:focus,
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover{
+
+  outline: none;
+  border: 1px solid #101557;
+
+}
+
+textarea {
+
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #D9D9DC;
+  background-color: #F1F2F7;
+  border-radius: 4px;
+  font-weight: 700;
+
+}
+
+
+
+label{
+  margin-left: 10px;
+  padding-bottom: 20px;
+  color:#101557
+}
+
+input{
+
+  font-family: 'Poppins', sans-serif;
+
+}
+
+select {
+  cursor: pointer;
+  color: #333333;
+  border: 1px solid #D9D9DC;
+  background-color: #F1F2F7;
+  padding: 8px 12px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: calc(70% + 10px);
+  height: 40px;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+
+.submit {
+  
+  border: 0px;
+  margin-top: 5px;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  background: #411FA2;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+
+}
+
+.submitbtn:hover {
+
+  cursor: pointer;
+  background-color: black;
+  color: white;
+
+}
+
+.error-msg {
+  color: rgba(238, 156, 156, 0.788);
+  font-size: 12px;
+}
+
+.error-msg-box {
+  border: 1px solid red;
+}

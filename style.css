@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+:root {
+    --primary-color: #12232E; 
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;   
+}
+
+.logo{
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links a{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.showcase{
+    height: 500px;
+    background-color: var(--primary-color);
+    color: white;
+    position: relative;
+    padding: 30px 60px;
+}
+
+.showcase h1{
+    padding: 10px 0px;
+    font-size: 30px;
+}
+
+.showcase p{
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+img{
+    width: 450px;
+    height: 275px;
+}
+
+.card{
+    color: #333;
+    background-color: azure;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Services Card */
+
+.services{
+    position: relative;
+    padding: 40px 60px;
+    background-color: #F7F9FB;
+}
+
+.container{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.services .container .card{
+    background-color: #D3E3FC;
+    width: 300px;
+    text-align: center;
+    padding: 0px 60px;
+}
+
+.services .container .card h4{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.services .container .card img{
+    width: 150px;
+    height: 230px;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+
+/* Footer */
+
+.bg-dark{
+    background-color: black;
+    color: azure;
+}
+
+.footcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.footer{
+    padding: 0px 70px;
+}
+
+
+.footcontainer li{
+    list-style: none;
+}
+
+.footcontainer a{
+    color: azure;
+    text-decoration: none;
+}
+
+.footer a{
+    padding: 0;
+    margin: 0;
+    margin: 0 10px;
+}
+
+.footer h4{
+    margin-bottom: 10px;
+}
+
+.footer a img{
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+    background-image: url(../Images/background01.jpg);
+    background-color: black;    
+
+}
+
+.grid-container{
+    margin-top: 70px;
+    margin-left: 100px;
+    height: 40%;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 70px 600px 600px;
+}
+
+.grid-content1{
+    grid-column: 1;
+    padding-top: 20px;
+    background-color: #009879;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    min-width: 5%;
+}
+
+.grid-content2{
+    padding: 30px;
+    grid-column: 2;
+    background-color: #eeeeee;
+    
+}
+
+.heading{
+    font-size:30px;
+    font-weight: bold;
+}
+
+.grid-container li{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+input[type="radio"]{
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 20px;
+
+}
+
+textarea:focus,
+textarea:hover{
+
+  outline: none;
+  border: 1px solid #bbbbbb;
+
+}
+
+textarea {
+
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #dddddd;
+  background-color: #eeeeee;
+  border-radius: 4px;
+  font-weight: 700;
+
+}
+
+.submitbtn {
+
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: rgb(236, 230, 230, 0);
+    padding: 10px 30px 10px 30px;
+    transition: ease-in-out 250ms;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.submitbtn:hover {
+
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+}
+
+.grid-svg{
+
+   width: 2rem;
+   min-width: 2rem;
+   margin-left: 5px;
+   margin-right: 10px;
+   padding: 0;
+
+}
+
+.grid-content3{
+    grid-column: 3;
+    padding: 30px;
+    background-color: #dddddd;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.heading-align{
+    display: flex;
+    align-items: center;
+}
+
+.form-align{
+    margin-top: 30px;
+}
+
+label{
+
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}

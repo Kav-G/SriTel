@@ -1,0 +1,104 @@
+:root{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+}
+
+body{
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  top: 0;
+  left: 0;
+  width: 11.5rem;
+  height: 100vh;
+  position: fixed;
+  background-color: var(--bg-primary);
+}
+
+.navbar-nav{
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+
+}
+
+.nav-item{
+  width: 100%;
+}
+
+.nav-item:last-child{
+  margin-top: auto;
+}
+
+.nav-link{
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: 300ms ease-in-out;
+  filter: grayscale(100%) opacity(0.7);
+}
+
+.nav-link:hover{
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  filter: grayscale(0%) opacity(1);
+}
+
+.link-img{
+
+  filter: invert(72%) sepia(78%) saturate(348%) hue-rotate(119deg) brightness(95%) contrast(83%);
+
+}
+
+.link-img1{
+  filter: invert(56%) sepia(59%) saturate(5698%) hue-rotate(296deg) brightness(92%) contrast(88%);
+}
+
+
+.nav-link img{
+  width: 1.5rem;
+  min-width: 1.5rem;
+  margin: 0 1rem;
+}
+
+.logo{
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3ch;
+  width: 100%;
+}
+
+.logo-img{
+  width: 2rem;
+  min-width: 2rem;
+  margin: 0 1rem;
+  filter: invert(56%) sepia(59%) saturate(5698%) hue-rotate(296deg) brightness(92%) contrast(88%);
+}
+
+
+.main {
+padding-left: 100px;
+margin-left: 10rem;
+background-image: url(../../Images/background02.jpg);
+}

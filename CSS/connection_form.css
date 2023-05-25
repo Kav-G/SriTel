@@ -1,0 +1,165 @@
+body{
+
+  background-image: url(../Images/background01.jpg);
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+.grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 65% 35%;
+  height: 100%;
+  margin-top: 2%;
+}
+
+.form {
+  padding: 0 20px;
+  padding-bottom: 30px;
+  background-color: rgb(255, 255, 255);
+  grid-column: 1;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+}
+
+.description {
+  color: black;
+  background-color: #99d3fa;
+  grid-column: 2;
+  padding: 20px;
+  color: bisque;
+  margin-right: 10%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.description h1, p{
+
+  color: black;
+  font-weight: 600;
+
+}
+
+.form-img{
+
+  margin-top: 40px;
+  padding: 0 40px;
+  width: 75%;
+  height: 60%;
+
+}
+
+
+.form h1{
+
+  padding: 20px;
+
+}
+
+
+
+input[type="text"] {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  width: 90%;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #dddddd;
+  background-color: #eeeeee;
+  color: #333333;
+  font-weight: 700;
+}
+
+input[type="text"]:hover,
+input[type="text"]:focus,
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover{
+
+  outline: none;
+  border: 1px solid #bbbbbb;
+
+}
+
+textarea {
+
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #dddddd;
+  background-color: #eeeeee;
+  border-radius: 4px;
+  font-weight: 700;
+
+}
+
+input[type="radio"] {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+label{
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
+input{
+
+  font-family: 'Poppins', sans-serif;
+
+}
+
+select {
+  cursor: pointer;
+  color: #333333;
+  border: 1px solid #dddddd;
+  background-color: #eeeeee;
+  padding: 8px 12px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: calc(70% + 10px);
+  height: 40px;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.submitbtn {
+  
+  margin-left: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: rgb(236, 230, 230, 0);
+  padding: 10px 30px 10px 30px;
+  transition: ease-in-out 250ms;
+
+}
+
+.submitbtn:hover {
+
+  cursor: pointer;
+  background-color: black;
+  color: white;
+
+}
+
+.error-msg {
+  color: rgba(238, 156, 156, 0.788);
+  font-size: 12px;
+}
+
+.error-msg-box {
+  border: 1px solid red;
+}

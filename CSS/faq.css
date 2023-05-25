@@ -1,0 +1,51 @@
+body{
+
+  background-color: #CBFEC9;
+  background-image: url("../Images/faq.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  padding: 100;
+  margin: 50;
+  box-sizing: border-box;
+  outline: none;
+
+}
+
+
+h2{
+  padding: 5px;
+  color:#101557;
+  text-align: center;
+}
+
+.accordion {
+
+  border: 0px;
+  margin-top: 25px;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  background: #CBFEC9;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+
+}
+
+
+.active, .accordion:hover {
+  background-color: #1A8988; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  font-size: 20px;
+  overflow: hidden;
+}

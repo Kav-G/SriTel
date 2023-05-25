@@ -1,0 +1,166 @@
+*{
+
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+
+    background-image: url(../Images/background01.jpg);
+
+}
+
+.content-table{
+
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.content-table thead tr {
+
+    background-color: #009879;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.content-table th,
+.content-table td{
+    
+    padding: 12px 15px;
+
+}
+
+.content-table tbody tr{
+    background-color: #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even){
+
+    background-color: #f3f3f3;
+
+}
+
+.content-table tbody tr:last-child{
+
+    border-bottom: 2px solid #009879;
+
+}
+
+.content-table tbody tr:hover{
+
+    color: #009879;
+    cursor: pointer;
+
+}
+
+tbody a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.action{
+    padding: 10px;
+    border: 2px solid #009879;
+    border-radius: 5px;
+    transition: ease-in-out 200ms;
+}
+
+.action:hover{
+    background-color: #009879;
+    color: white;
+}
+
+.filter-input{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    width: 10%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    background-color: #eeeeee;
+    color: #333333;
+    font-weight: 700;
+}
+
+.filter-input:hover,
+.filter-input:focus,
+select:hover,
+select:focus{
+    outline: none;
+    border: 1px solid #bbbbbb;
+}
+
+select {
+    cursor: pointer;
+    color: #333333;
+    border: 1px solid #dddddd;
+    background-color: #eeeeee;
+    padding: 8px 12px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 5%;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.heading-primary{
+    
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading-secondary{
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table-headings,
+.search-labels{
+    padding: 20px;
+}
+
+.header-primary{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header-svg-primary{
+
+    width: 3rem;
+    min-width: 3rem;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 0;
+
+ }
+
+ .header-secondary{
+    display: flex;
+    align-items: center;
+ }
+
+
+ .header-svg-secondary{
+    width: 2.5rem;
+    min-width: 2.5rem;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 0;
+ }
